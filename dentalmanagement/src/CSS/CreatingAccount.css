@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container{
+    width: 95%;
+  }
+
+  .red-rectangle{
+    background-color: #88343B;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  h1 {
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .h1-holder{
+    border: solid black 1px;
+  }
+
+  .input-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid black 1px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .input-container input ::placeholder{
+    margin-left: 10px;
+  }
+
+  .input{
+    height: 50px;
+    width: 400px;
+  }
+
+  .button-container{
+    border: solid black 1px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+  .button{
+    width: 200px;
+    height: 50px;
+  }
